@@ -1,18 +1,15 @@
 import React, {Component } from 'react';
+// Components
+import Navbar from '../components/Navbar';
+import InterviewsOverview from '../components/interviewsOverview';
+
   
 class Interviews extends Component {
   render() {
     return (
-      <div
-        // style={{
-        //   display: 'flex',
-        //   justifyContent: 'Right',
-        //   alignItems: 'Right',
-        //   height: '100vh'
-        // }}
-      >
-        <h1>Interviews.</h1>
-        <p>This is a test!</p>
+      <div>
+        <Navbar />
+        <InterviewsOverview />
       </div>
     );
   }

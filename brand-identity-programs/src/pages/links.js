@@ -1,18 +1,19 @@
-import React from 'react';
+import React, {Component } from 'react';
+import Navbar from '../components/Navbar';
+import LinksComponent from '../components/Links';
+
+
   
-const Links = () => {
+class Links extends Component {
+  render() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>Links</h1>
+    <div>
+      <Navbar />
+      lkj
+      <LinksComponent />
     </div>
   );
-};
+}
+}
   
 export default Links;

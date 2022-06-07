@@ -4,8 +4,7 @@ import {
   NavLink,
 //   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
+  NavLinkHome
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -14,9 +13,9 @@ const Navbar = () => {
         <Nav>
             {/* <Bars /> */}
             <NavMenu>
-                <NavLink exact to='/'>
+                <NavLinkHome exact to='/'>
                     Domů
-                </NavLink>
+                </NavLinkHome>
                 <NavLink to='/programs'>
                     Programy
                 </NavLink>

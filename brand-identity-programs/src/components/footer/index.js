@@ -1,9 +1,5 @@
 import React from 'react';
  import {
-//   Nav,
-//   NavLink,
-//   NavMenu,
-//   NavBtn,
     FooterDiv,
     FooterColumn1,
     UnderLined,
@@ -48,7 +44,7 @@ const Footer = () => {
                 </p>
             </div>
             <FooterImgDiv>
-                <FooterImg src={footerImage} alt="Footer Image" />;
+                <FooterImg src={footerImage} alt="Footer Image" />
             </FooterImgDiv>
         </FooterDiv>
         </>

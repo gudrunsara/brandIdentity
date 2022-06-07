@@ -2,15 +2,12 @@ import styled from 'styled-components';
 
 export const FooterDiv = styled.div`
   display: flex;
-  max-width:100%;
-  width: 100vw;
-  position absolute;
-  bottom: 0;
+  position: absolute;
+  width: 100%;
 `;
 
 export const FooterColumn1 = styled.div`
   margin-right: 100px;
-  padding-left: 30px;
 `;
 
 export const UnderLined = styled.div`

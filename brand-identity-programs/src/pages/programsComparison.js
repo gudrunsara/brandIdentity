@@ -2,17 +2,17 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-import ProgramsComponent from '../components/ProgramsComponent';
+import ProgramsComparisonComponent from '../components/ProgramsComparisonComponent';
 
   
-const Programs = () => {
+const ProgramsComparison = () => {
   return (
     <div>
       <Navbar />
-      <ProgramsComponent />
+      <ProgramsComparisonComponent />
       <Footer />
     </div>
   );
 };
   
-export default Programs;
+export default ProgramsComparison;

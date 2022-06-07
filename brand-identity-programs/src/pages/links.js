@@ -9,7 +9,6 @@ class Links extends Component {
   return (
     <div>
       <Navbar />
-      lkj
       <LinksComponent />
     </div>
   );

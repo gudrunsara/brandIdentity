@@ -8,7 +8,14 @@ export const FooterDiv = styled.div`
 
 export const FooterColumn1 = styled.div`
   margin-right: 100px;
+  font-size: 49px;
 `;
+
+
+export const FooterText = styled.p`
+    font-size: 49px;
+`;
+
 
 export const UnderLined = styled.div`
   text-decoration: underline;
@@ -16,15 +23,14 @@ export const UnderLined = styled.div`
 
 export const FooterImgDiv = styled.div`
   margin-left: auto;
-  height: 287px;
   width: 390px;
   position: relative;
 `;
 
 export const FooterImg = styled.img`
-  height: 190px;
+  height: 400px;
   bottom: 0;
-  right: 0;
+  right: 30px;
   position: absolute;
   padding: 30px;
 `;

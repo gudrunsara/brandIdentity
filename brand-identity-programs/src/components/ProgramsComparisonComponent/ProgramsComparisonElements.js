@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 export const PageTitle = styled.h1`
     text-align: center;
     font-size: 70px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 `;
 
 export const ProgramsComparisonFlex = styled.div`
@@ -12,15 +14,25 @@ export const ProgramsComparisonFlex = styled.div`
   -webkit-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 70px;
 
   div {
     flex: 1;
     padding: 13px;
   }
 
+  h3 {
+    margin-top: 70px;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 39px;
+  }
   p {
     font-family: "RoobertLight";
   }
+  
+
   `;
 
   export const TitleH2Strong = styled.h2`
@@ -30,6 +42,7 @@ export const ProgramsComparisonFlex = styled.div`
   export const LightH2 = styled.h2`
     font-family: "RoobertLight";
     display: inline-block;
+    font-size: 24px;
   `;
 
   export const ProgramsComparisonHeaderImg = styled.img`
@@ -37,11 +50,12 @@ export const ProgramsComparisonFlex = styled.div`
   `;
 
   export const ProgramsComparisonWrapper = styled.div`
-    margin: 0px 200px;
+    margin: 0px 500px;
   `;
 
   export const HeaderH2 = styled.h2`
     margin: 13px;
+    font-size: 39px;
   `;
   
 export const ExSign = styled.img`
@@ -50,7 +64,7 @@ export const ExSign = styled.img`
 `;
 
 export const LanguageIcon = styled.img`
-  width: 100px;
+  width: 150px;
 `;
 
 // Header images:
@@ -84,6 +98,7 @@ export const FrontPageLinkComponentLink = styled(Link)`
 
 export const LinkText = styled.h2`
 margin: 0px 0px 20px 0px;
+font-size: 24px;
 `;
 
 export const FrontPageLinkComponentLinkTextLast = styled.h1`
@@ -96,6 +111,7 @@ export const DivisionLine = styled.hr`
   background-color: #EAEAEA;
   height: 0.1px;
   margin: 0px 13px;
+  margin-bottom: 20px;
 `;
 
 

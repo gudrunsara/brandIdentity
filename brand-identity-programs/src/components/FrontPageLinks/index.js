@@ -2,6 +2,8 @@ import React from 'react';
 // import {Link} from 'react-router';
 import Canva from '../../images/Canva.png';
 import Petr from '../../images/Petr.png';
+import gif from '../../images//gifs/guy.gif';
+
 
 
 import {
@@ -19,7 +21,7 @@ const FrontPageLinks = () => {
         <>
         <FrontPageLinkComponentLinks>
             <FrontPageLinkComponentProgramy>
-                <FrontPageLinkComponentLink to='/programs'>
+                <FrontPageLinkComponentLink to='/programs-comparison'>
                     <FrontPageLinkComponentLinkText>Programy</FrontPageLinkComponentLinkText>
                     <FrontPageLinkComponentImg src={Canva} alt="Canva" />
                 </FrontPageLinkComponentLink >

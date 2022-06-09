@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Ales from '../../images/Ales.png';
 import Filip from '../../images/Filip.png';
 import Lumir from '../../images/lumir-dp.png';
-import Marek from '../../images/lumir-dp.png';
+import Marek from '../../images/Marek-dp.png';
 import Marketa from '../../images/Marketa.png';
 import Petr from '../../images/Petr.png';
 

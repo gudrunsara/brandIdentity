@@ -16,7 +16,7 @@ const Navbar = () => {
                 <NavLinkHome exact to='/'>
                     Domů
                 </NavLinkHome>
-                <NavLink to='/programs'>
+                <NavLink to='/programs-comparison '>
                     Programy
                 </NavLink>
                 <NavLink to='/interviews'>

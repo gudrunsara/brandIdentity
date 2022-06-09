@@ -14,6 +14,7 @@ export const AboutTextDiv = styled.div`
 export const AboutText = styled.h1`
   margin: 0px !important;
   padding-top: 28px;
+  font-size: 49px;
 }
 `;
 

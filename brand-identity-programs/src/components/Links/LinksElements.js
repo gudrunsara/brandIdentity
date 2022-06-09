@@ -15,6 +15,8 @@ export const FrontPageLinkComponentZdroje = styled.div`
   color:red;
   background-image: url(${FooterImage});
   height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 40%;
   border-radius: 30px;
 `;

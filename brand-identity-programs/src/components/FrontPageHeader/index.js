@@ -6,6 +6,7 @@ import React from 'react';
     FrontpageGif
 } from './FrontPageHeaderElements';
 import footerImage from '../../images/footer-img.png';
+import gif from '../../images/gifs/front-page.gif'
 
 
 const FrontPageHeader = () => {
@@ -18,7 +19,7 @@ const FrontPageHeader = () => {
                 </AboutText>
             </AboutTextDiv>
           
-           <FrontpageGif src={footerImage} alt="Footer" />
+           <FrontpageGif src={gif} alt="Gif" />
         </FrontPageHeaderDiv>
         </>
     );

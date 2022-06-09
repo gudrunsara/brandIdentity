@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 import FooterImage from '../../images/footer-img.png';
+import gifguy from '../../images//gifs/guy.gif';
+
 
 export const FrontPageLinkComponentLinks = styled.div`
   display: flex;
@@ -24,10 +26,12 @@ export const FrontPageLinkComponentRozhovory = styled.div`
 `;
 
 export const FrontPageLinkComponentZdroje = styled.div`
-  background-image: url(${FooterImage});
-  height: 640px;
+  background-image: url(${gifguy});
+  height: 606px;
   width: 50%;
   border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 10px;
   margin-top: 30px;
 `;

@@ -3,29 +3,42 @@ import styled from 'styled-components';
 export const InterviewComparisonFlex = styled.div`
     display: flex;
     justify-content: center;
-    margin: 100px 0px;
-    
+    margin: 200px 100px;
+
+
 `;
 
 export const InterviewSelect = styled.select`
-    border: 1pt solid #D9D9D9;
+    border: 2pt solid #D9D9D9;
     border-radius: 29px;
-    width: 200px;
+    width: 400px;
     padding: 6px 17px;
     margin: 10px;
     font-size: 20px;
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
     appearance:none;
+
+    font-size: 32px;
+    font-family: "RoobertSemiBold";
+
+    &:nth-child(1) {
+      border: 2pt solid #CAA1FF;
+  }
+    
 `;
 
 export const Questions = styled.h1`
     text-align: center;
+    font-size: 52px; 
+    margin: 150px 450px;
+
 `;
 
 export const AnsweresWrapper = styled.div`
     display: flex;
     justify-content: space-between;
+    margin: 0px 150px;
 `;
 
 export const AnsweresBox = styled.div`
@@ -64,6 +77,8 @@ export const AnswerText1 = styled.div`
     padding: 10px;
     margin: 20px 10px 0px 10px;
     color: white;
+    font-size: 32px;
+    max-width: 700px;
   }
 `;
 
@@ -75,6 +90,8 @@ export const AnswerText2 = styled.div`
   p {
     color: white;
     margin: 10px;
+    font-size: 32px;
+    max-width: 700px;
   }
 `;
 

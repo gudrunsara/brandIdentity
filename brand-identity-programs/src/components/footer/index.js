@@ -4,9 +4,10 @@ import React from 'react';
     FooterColumn1,
     UnderLined,
     FooterImgDiv,
-    FooterImg
+    FooterImg,
+    FooterText
 } from './FooterElements';
-import footerImage from '../../images/footer-img.png';
+import footerGif from '../../images/gifs/footer-gif.gif';
 
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
         <>
         <FooterDiv>
             <FooterColumn1>
-                <p>
+                <FooterText>
                 Autor: David Novák<br></br>
                 Developmen:<br></br>
                 Gudrun Örnolfsdottir<br></br>
@@ -24,10 +25,10 @@ const Footer = () => {
                 Grafického designu<br></br>
                 a nových médií<br></br>
                 <UnderLined>UMPRUM</UnderLined><br></br>
-                </p>
+                </FooterText>
             </FooterColumn1>
             <div>
-                <p>
+                <FooterText>
                 Poděkování: Petr Babák<br></br>
                 Lukáš Kijonka<br></br>
                 Martin Ponec<br></br>
@@ -41,10 +42,10 @@ const Footer = () => {
                 Petr Krejzek<br></br>
                 Lumír Kajnar<br></br>
                 Aleš Najbrt<br></br>
-                </p>
+                </FooterText>
             </div>
             <FooterImgDiv>
-                <FooterImg src={footerImage} alt="Footer Image" />
+                <FooterImg src={footerGif} alt="Footer Image" />
             </FooterImgDiv>
         </FooterDiv>
         </>

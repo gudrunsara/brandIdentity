@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 
 export const PageTitle = styled.h1`
-    text-align: center;
-    font-size: 70px;
+text-align: center;
+font-size: 70px;
+margin-top: 200px;
+margin-bottom: 200px;
 `;
 
 export const FrontPageLinkComponentLinks = styled.div`
@@ -64,4 +66,5 @@ export const OnHoverText = styled.p`
     display: none;
     top: 62px;
     padding-right: 20px;
+    font-size: 32px;
 `;

@@ -59,6 +59,7 @@ export const AnswerImage = styled.img`
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  object-fit: cover;
 `;
 
 export const Answer2Image = styled.img`
@@ -68,6 +69,7 @@ export const Answer2Image = styled.img`
   position: absolute;
   right: 0;
   bottom: 0;
+  object-fit: cover;
 `;
 
 export const AnswerText1 = styled.div`

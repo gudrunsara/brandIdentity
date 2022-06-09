@@ -138,36 +138,36 @@ const InterviewComparison = () => {
         { 
             name: 'Marek Nedelka', 
             img: Marek,
-            Q1: 'Marek Nedelka',
-            Q2: 'q2',
-            Q3: 'q2',
-            Q4: 'q2',
-            Q5: 'q2',
-            Q6: 'q2',
-            Q7: 'q2',
-            Q8: 'q2',
-            Q9: 'q2',
-            Q10: 'q2',
-            Q11: 'q2',
-            Q12: 'q2',
+            Q1: 'InDesign, Figma, Word',
+            Q2: 'Figma, BrandCloud a pro menší identity i vlastní online manuál pracující s open source šablonou s odkazy na zdrojová data na Drive/Dropbox nebo další úložiště. Celkově oceňuju posun relativně nových softwarů jako je Figma (nebo Google Slides) k sdílení práce. Možnost pracovat simultánně ve více lidech na jednom dokumentu, komentovat, umožňuje pracovat transparentně a efektivně. Design tak není nějaké kouzlení za oponou, ale práce přechází v dialog.',
+            Q3: '',
+            Q4: 'Vnímám logomanuál primárně jako formu dialogu s klientem. Pokud jde o větší firmu/instituci, je nutné, aby byly myšlenky/principy/návody, jak s identitou zacházet, zaarchivované v nějaké srozumitelné podobě. Čím dál tím více jsem tedy přesvědčen, že v případě identit pro menší subjekty je nejlepší manuál v interaktivním PDF. Ne tak z vlastního přesvědčení, ale ze zkušenosti.V případě identity pro Technickou univerzitu v Liberci jsme zpracovali velký manuál na BrandCloud, ale univerzita jako veřejná instituce stejně potřebuje manuál v PDF pro administrativní účely. Takže stejnou práci stejně děláme dvakrát, pokaždé v jiné podobě.',
+            Q5: '',
+            Q6: '',
+            Q7: '',
+            Q8: 'Automatizace by byla fajn, ale vyžaduje bezchybnou kooperaci obou stran. Typ projektů nebo návrhu mi to zatím neumožňoval. Chtěli jsme např. automatizovat vytváření stovek logotypů v různých formátech právě pro Technickou univerzitu v Liberci (fakulty a další pracoviště), ale ukázalo se, že grafický princip tvorby logotypů (využívající kombinování více textových stylů a různé délky názvů) plnou automatizaci neumožňoval. Automatizace musí být od začátku procesu součástí grafického konceptu, aby pak bylo možné vše jednoduše zprocesovat. Z realizovaných projektů z poslední doby jsem spokojen s webu aka online archivem pro architekty SIAL, kde se podařilo zvolením správného principu dostat na web elegantně desítky projektů za desítky let fungování studia. Pro starší firmy je to tvorba webu příležitost, jak si dát dokupy své archivy, které jsou někdy i z analogové éry. Mladší firmy už to mají poměrně hezky připravené na začátku projektu. Ale to je specifické pro tvorbu webů, ne identit.',
+            Q9: 'Ne Ale asi bychom si museli ujasnit, co myslíš automatizací práce, protože každý příkaz v softwaru je ve své podstatě automatizací.',
+            Q10: '',
+            Q11: '',
+            Q12: 'Vždy je to vůli ze strany klienta dělat věci správně. S nemotivovanými lidmi identita dobře zavést nejde. Vše je o komunikaci a ne vždy zapálení vydrží a ne vždy výsledek vypadá tak, jak si designér přeje.',
         },);
       const [interview2, setinterview2] = useState(
         { 
             name: 'Petr Krejzek',     
             img: Petr, 
-            Q1: 'Petr Krejzek',
-            Q2: 'q2',
-            Q3: 'q2',
-            Q4: 'q2',
-            Q5: 'q2',
-            Q6: 'q2',
-            Q7: 'q2',
-            Q8: 'q2',
-            Q9: 'q2',
-            Q10: 'q2',
-            Q11: 'q2',
-            Q12: 'q2',
-            },
+            Q1: '(Indesign, Word,…)Standdardně jde o idnd, psd a wordové dokumenty, co se týče otevřených formátů. Předpokládáme ale, že prvotní výstupy půjdou od nás, až poté, co se naučí pravidla definovaná v grafickém manuálu. Většinou již pak jen sledujeme s úžasem, co s tím dál kreativně vytvářejí. Někdy se člověk nestačí divit.' ,
+            Q2: 'Šablony typu Canva nepoužíváme, ani online logomanuály. Jsou to generické záležitosti, které určitě mohou zrychlit práci, zároveň vás omezují v míře identity, kterou jako grafický tvůrce chcete držet pevně v ruce. Nesnáším například wordpress, vím, že lze koupit šablony, do nichž si naleješ obsah, nicméně pak vypadá všechno víceméně stejně. Gigantický obrázek homepage a pak už jen scroll. Je fakt, že si na to firmy zvykly a v čím dál větší míře chtějí pracovat v tomto úzusu. Nabalilo se na to spousta firem, kterým šablony usnadnily práci, také to srazilo poměrně ceny, protože takové layouty lze koupit za hubičku.',
+            Q3: 'Logomanuál v tom starém smyslu, že klient na výstupu dostane fyzicky těžký fascikl v hezky zpracované a řemeslné podobě, který si zastrčí do knihovny ve třech-deseti kusech jsou už přežitek. Myslím, že flexibilita a tekutost doby si žádá online manuály, ty jdou také v podstatě aktivně doplňovat a měnit podle potřeb, protože častokrát si klient potřebuje doplnit dodělávky vzniklé na základě nutnosti, o níž při počáteční práci na manuálu neměl ani potuchy. Manuály o kterých mluvím jsou většinou statická pdf zavěšená na webových stránkách, lze je proklikat v obsahu, zároveň do nich nikdo, než autor nemůže nic měnit.',
+            Q4: 'Ta je určitě obsažena v kapacitě online řešení, to je trendem a tak to bude pokračovat. Dovedu si představit kompletní úložiště, kde v pdf formátu budou linky na jednotlivé šablony, se kterými si pak cizí tvůrci budou pracovat dle definic v manuálu. Manuál je ale stále nějaká konkrétní forma, definuje pravidla ve kterých se pak člověk pohybuje. Jinak by to byla anarchie a bordel, tedy přesně to, co stálo před samotnou podstatou zadání. ',
+            Q5: 'Vím, že se tím spousta lidí zabývá, je to trend, před kterým nelze ohnout zrak. Na druhou stranu to pak zabíjí samotnou podstatu designu, tedy nějakého tvůrčího procesu, kdy designér není robotem (byť počítač, jako robotický systém ke své práci užívá), ale aktivním myslícím – a iracionálním – prvkem. O Superinteligenci, která se jednou probudí (dle Bossoma) a odřízne člověka od jeho lidství zatím jen čteme. Jsem vášnivým čtenářem scifi a mám rád, opravdu rád, tyto predikce, ale stále si myslím, že ten prvek lidství je pro nás ještě to stěžejní a neměli bychom se ho zbavovat. Automatizace slouží především k rychlému kapitálu.',
+            Q6: '(teď nebo v budoucnu)Určitě pomůže k urychlení těch technických procesů např. kodování, usnadní nám to mnoho kroků se kterými by se člověk mořil hodiny a dny. Ale nedomnívám se, že v dohledné době nahradí moment myšlení. Design je především o tom myslet, nacházet jiné cesty, které ještě nebyly prošlapány. Asi jsem ale idealista a moje názory jsou k smíchu.',
+            Q7: 'Asi ještě nejsou vyvinuty algoritmy, které by do procesu navrhování aplikovaly právě ten moment náhody. Stále jsi jen designér, který pracuje s myšlenkou a počítač je nástroj, který ti pomáhá tuhle myšlenku různým způsobem ztělesnit. Představ si, že bys měl partnera, počítačový program, který by nahradil tvého kolegu designéra a přinášel by kreativní nápady. Pokopl by tě k dalšímu kaskádovitému procesu. Ale možná to není odpověď, kterou jsi čekal.',
+            Q8: 'Ve své práci takové případy nevyužiju. Tedy pokud nevyužívám scripty pro sazbu, například při sazbě knihy a nahrazení a vyhledávání potřebných znaků. To je pak časově neocenitelné. ',
+            Q9: 'Ne, ale určitě, když člověk zpracovává gigantická data nebo například přepis z excelových tabulek do indesignových souborů (při např. Dělání vizitek nebo popisek v masovém měřítku) tam jde o řádově obrovských časových rezervách. A o to jde. Je to jak jsem řekl už: slouží to k rychlému kapitálu:-)',
+            Q10: 'Ne, ale možná bych měl začít:-) ',
+            Q11: 'Nyní je všechno o systémech. Systémové řešení v grafickém designu de facto pochází (a možná se mýlím) z poloviny 50. Let a je spojeno s tzv mezinárodním stylem, který na základě logických experimentů Bauhausu ve Švýcarsku dovedli do dokonalosti Anton Stankowski, Max Bill nebo Karl Gerstner. Šlo o pragmatickou školu, která, tím, že vycházela ze švýcarsko-bauhausovského naturelu, pomohla nastolit jasná pravidla, co se týče budoucích korporátních tendencí. Mřížka, totální racionalita, přísnost, ale i humanistický status, který tuto tendenci velmi rychle převzali Američani díky emigraci po válce. V době normalizace a speciálně v naší malé kotlině se tahle racionální řešení, která by komplexně definovala nějaký grafický jazyk dostávala do podvědomí grafických designérů velmi pozvolna. Známe typický příklad, prof. Rostislav Vaněk, který s Jiřím Rathouským tyto novátorské principy otevřeli v případu informačního systému pražského metra v 70. Letech. To byl neuvěřitelný počin, který se stal vlastně legendou, jehjich žáci a pokračovatelé se vlastně s tímto procesem popírají dodneška, ostatně právě nyní vyhrál Vaňkův žák a asistent Tomáš Machek a Richardem Jarošem (Side 2) mezinárodní soutěž na novou podobu vizuálu pražského metra. Jenže. Existují i jiné přístupy. Vezmi si punkové hnutí, Jimmyho Reida nebo divokou dekonstruktivní až surrealistickou práci Davida Carsona v 90. Letech. To je zcela jiný přístup, založený na imaginaci, borcení hranic, aktivitě, která se vymyká řádu, pracuje s ošklivostí a záměrně se staví k těmto racionálním tendencím, které v době globalizační, až bych řekl, propagandy, upřednosťovala emoce, vášeň a estetický chaos. Předpokládám, že přijdou nové idee, možná generované AI, které zase změní tohle paradigma.',
+            Q12: 'stále by měla být na první místě myšlenka. To je ostatně, jak píše Norman Potter nebo Bruce Sterling základními stavebními kameny jakékoli vizuální identity. Nedokážu předpovědět co bude dalším zlomovým bodem v grafickém designu. Současná generace je stmelena do jednoho klubka, Instagram, Pinterest, Facebook a třeba i Tik Tok:-). Je to dobře? Je to špatně? Nestává se komunitním stádem, které opisuje jeden od druhého a je nasáto konformitou názorů? Mají vlastní myšlenky, zajímá je ještě originalita, něco, co dokáže prolomit hranice? Vizuální identita v roce 2022 bude, předpokládám, stále v intencích tohoto procesu. A předpokládám, že někde už je originální autor, který objeví novou niku, skulinu, kterou předtím ještě nikdo neviděl. Třeba vytvoří vizuál metra z psaného písma.',
+        },
           );
 
       const handleChangeOne = (event) => {
@@ -189,7 +189,7 @@ const InterviewComparison = () => {
         <InterviewSelect
             name="select-one"
             searchable={false}
-            value={selectedOptionOne}
+            value={selectedOptionOne.value}
             onChange={handleChangeOne}>
             {options.map((option) => (
             <option key={option.value} value={option.value}>{option.label}</option>
@@ -199,7 +199,7 @@ const InterviewComparison = () => {
         <InterviewSelect 
             name="select-two"
             searchable={false}
-            value={selectedOptionTwo}
+            value={selectedOptionTwo.value}
             onChange={handleChangeTwo}>
             {options.map((option) => (
             <option key={option.value} value={option.value}>{option.label}</option>

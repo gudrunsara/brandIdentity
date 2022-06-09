@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom'
-import FooterImage from '../../images/footer-img.png';
 import walking from '../../images/gifs/walking.gif'
 import smurfs from '../../images/gifs/smurfs.gif'
 import woman from '../../images/gifs/woman-drinking.gif'
@@ -66,7 +64,7 @@ export const FrontPageLinkComponentZdroje = styled.div`
   }
 `;
 
-export const FrontPageLinkComponentLink = styled(Link)`
+export const FrontPageLinkComponentLink = styled.a`
   color: white;
 `;
 

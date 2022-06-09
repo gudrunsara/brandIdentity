@@ -2,6 +2,7 @@ import React, {Component } from 'react';
 // Components
 import Navbar from '../components/Navbar';
 import InterviewsOverview from '../components/interviewsOverview';
+import GoToTop from '../components/GoToTop.js';
 
   
 class Interviews extends Component {
@@ -10,6 +11,7 @@ class Interviews extends Component {
       <div>
         <Navbar />
         <InterviewsOverview />
+        <GoToTop></GoToTop>
       </div>
     );
   }

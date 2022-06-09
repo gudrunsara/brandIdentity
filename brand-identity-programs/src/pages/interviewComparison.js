@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import InterviewComparisonComponent from '../components/InterviewComparisonComponent';
+import GoToTop from '../components/GoToTop.js';
+
 
   
 const InterviewComparison = () => {
@@ -11,6 +13,7 @@ const InterviewComparison = () => {
       <Navbar />
       <InterviewComparisonComponent />
       <Footer />
+      <GoToTop></GoToTop>
     </div>
   );
 };

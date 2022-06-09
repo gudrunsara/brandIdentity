@@ -1,6 +1,8 @@
 import React, {Component } from 'react';
 import Navbar from '../components/Navbar';
 import LinksComponent from '../components/Links';
+import GoToTop from '../components/GoToTop.js';
+
 
 
   
@@ -10,6 +12,7 @@ class Links extends Component {
     <div>
       <Navbar />
       <LinksComponent />
+      <GoToTop></GoToTop>
     </div>
   );
 }

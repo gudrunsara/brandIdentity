@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import FrontPageLinks from '../components/FrontPageLinks';
 import Navbar from '../components/Navbar';
 import FrontPageHeader from '../components/FrontPageHeader';
+import GoToTop from '../components/GoToTop.js';
+
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
         <FrontPageLinks></FrontPageLinks>
       </div>
       <Footer />
+      <GoToTop></GoToTop>
     </div>
   );
 };

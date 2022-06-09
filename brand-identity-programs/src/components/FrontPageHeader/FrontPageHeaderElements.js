@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FrontPageHeaderDiv = styled.div`
   display: flex;
+  margin-top: 100px;
   margin-bottom: 122px;
 `;
 

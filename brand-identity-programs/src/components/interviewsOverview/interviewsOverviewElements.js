@@ -12,7 +12,7 @@ export const FrontPageLinkComponentLinks = styled.div`
   margin-bottom: 200px;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   `;
 
 export const FrontPageLinkComponentProgramy = styled.div`
